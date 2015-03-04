@@ -99,7 +99,7 @@ a {
 }
 
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 768px) {
     .flex-container {
         display: block;
     }
