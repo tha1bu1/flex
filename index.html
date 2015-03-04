@@ -15,36 +15,60 @@
     <link rel="stylesheet" href="css/style.css">
 
     <style type="text/css">
-        .flex-container {
-            display: -webkit-flex;
-            display: -ms-flex;
-            display: flex;
-            margin: 1em 0;
+        a {
+            text-decoration: none;
+        }
+        .banner {
+            width: 100%;
         }
 
-        .flex1 {
-            -webkit-flex: 1 1 auto;
-            -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
+        .banner {
+            position: relative;
         }
 
-        .flex2 {
-            -webkit-flex: 1 1 auto;
-            -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
+        .rightside {
+            position: absolute;
+            top: 10px;
+            right: 50px;
         }
-        .box {
-            background-color: #b3b3b3;
+
+        .button {
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            background-color: #9ed6f9;
+        }
+
+        .right-button {
+            width: 45%;
+            margin: 0 auto;
+            line-height: 54px;
+            text-align: center;
+            color: #001b7e;
         }
     </style>
 </head>
 <body>
 <div class="wrapper">
     <div class="container">
-        <section class="flex-container">
-            <div class="flex1 box"><h2>one</h2></div>
-            <div class="flex2 box"><h2>two</h2></div>
-            <div class="flex1 box"><h2>three</h2></div>
+        <header><img src="http://placehold.it/350x100"></header>
+        <section class="banner">
+            <img src="http://placehold.it/980x350">
+            <div class="rightside">
+                <h1>5 Reasons Doctors Hate This!</h1>
+                <div class="list">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+                <a href="#">
+                    <div class="button right-button">Get it!</div>
+                </a>
+            </div>
         </section>
     </div>
 </div>
